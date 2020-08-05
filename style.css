@@ -1,0 +1,238 @@
+.feature-box{
+    text-align: center;
+    padding:1%;
+    background: #A9A587;
+    color: #554640;
+    position: relative;
+} 
+body{
+  height: 100vh;
+}
+
+.navbar-brand{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem; 
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+.welcome{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: red;
+}
+
+.backgroud{
+  background-color: #EEF5DB; 
+  /* background-color: white; */
+}
+
+.Objective{
+  background-color: #C73E1D;
+  color: white;
+  padding: 1%;
+  width: 53%;
+  margin-top: 4%;
+  margin-left: 10%;
+  border-radius: 15px;
+  position: relative;
+  box-shadow:70px -30px #F9DF74;
+}
+
+.Backgroud-text{
+  background-color: #436436;
+  color: white;
+  padding: 1%;
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 6%;
+  border-radius: 15px;
+  position: relative;
+  text-align: justify;
+  box-shadow:70px -30px #BDD358;
+}
+
+.Scope{
+  background-color: #445E93;
+  color: white;
+  padding: 1%;
+  width: 53%;
+  margin-top: 7.5%;
+  margin-left: 10%;
+  margin-bottom: 7%;
+  border-radius: 15px;
+  position: relative;
+  box-shadow:70px -30px #7EB2DD;
+}
+
+.A2{
+  background-color: #9E0059;
+  color: white;
+  padding: 1%;
+  width: 53%;
+  margin-top: 7.5%;
+  margin-left: 10%;
+  border-radius: 15px;
+  position: relative;
+  box-shadow:70px -30px #F9564F;
+}
+
+.header_objective{
+  font-family: 'Quicksand', sans-serif;
+  color: #F9DF74
+}
+
+.header_background{
+  font-family: 'Quicksand', sans-serif;
+  color: #99C24D
+}
+
+.header_scope{
+  font-family: 'Quicksand', sans-serif;
+  color: #83E5D1
+}
+
+
+.download_button{
+  margin-left: 47%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.download_text{
+  margin-top: 2%;
+  margin-bottom: 10%;
+  bottom: 17px;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#detail{
+  margin-top: 2%;
+  position: relative;
+}
+
+#detail-A2{
+  margin-top: 5%;
+  position: relative;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.paragraph_detail{
+  font-size: 20px;
+}
+
+.empty{
+  height:0px;
+}
+
+
+@media (max-width: 1366px){
+  .download_button{
+    margin-left: 43%;
+    margin-top: 5%;
+    position: relative;
+  }
+  .download_text{
+    margin-bottom: 15%;
+  }
+  .A2{
+    width: 70%;
+  }
+  .Objective{
+    width: 70%;
+  }
+  .Backgroud-text{
+    width: 70%;
+    margin-left: 20%;
+  }
+  .Scope{
+    width:70%; 
+    margin-bottom: 15%;
+  }
+  .empty{
+    height:100px;
+  }
+}
+
+@media (max-width: 1024px){
+  .download_button{
+    margin-left: 43%;
+    margin-top: 5%;
+    position: relative;
+  }
+  .A2{
+    width: 70%;
+  }
+  .Objective{
+    width: 70%;
+  }
+  .Backgroud-text{
+    width: 70%;
+    margin-left: 20%;
+  }
+  .Scope{
+    width:70%; 
+    margin-bottom: 32%;
+  }
+}
+
+
+
+@media screen 
+  /* and (min-device-width: 414px)  */
+  and (max-device-width: 800px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)
+{ 
+  .download_button{
+    margin-left: 43%;
+    margin-top: 5%;
+    position: relative;
+  }
+  .A2{
+    width: 80%;
+    margin-left: 5%;
+  }
+  .Objective{
+    width: 70%;
+  }
+  .Backgroud-text{
+    width: 70%;
+    margin-left: 20%;
+  }
+  .Scope{
+    width:70%; 
+    margin-bottom: 10%;
+  }
+  .paragraph_detail{
+    font-size: 32px;
+  }
+  .backgroud{
+    background-color: red;
+  }
+}
